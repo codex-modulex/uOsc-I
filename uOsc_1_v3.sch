@@ -14660,11 +14660,13 @@ by exp-lbrs.ulp</description>
 <sheet>
 <plain>
 <text x="86.36" y="-76.2" size="2.54" layer="94">cc-by-sa</text>
-<text x="86.36" y="-81.28" size="2.54" layer="94">Olivier Gillet</text>
-<text x="86.36" y="-86.36" size="2.54" layer="94">ol.gillet@gmail.com</text>
+<text x="86.36" y="-80.518" size="2.54" layer="94">Codex-Modulex</text>
+<text x="86.36" y="-84.836" size="2.54" layer="94">info@codex-modulex.com</text>
 <text x="144.78" y="66.04" size="1.778" layer="97">mini JTAG</text>
 <text x="142.24" y="-76.2" size="2.54" layer="94">Digital section</text>
 <text x="-30.48" y="132.08" size="1.27" layer="97">grounded on v4.0 or above</text>
+<text x="86.36" y="-91.44" size="1.778" layer="94">Original design by:
+Olivier Gillet of Mutable Instruments</text>
 </plain>
 <instances>
 <instance part="UC1" gate="G$1" x="-83.82" y="106.68" smashed="yes">
@@ -15510,13 +15512,15 @@ by exp-lbrs.ulp</description>
 <sheet>
 <plain>
 <text x="149.86" y="-30.48" size="2.54" layer="94">cc-by-sa</text>
-<text x="149.86" y="-35.56" size="2.54" layer="94">Olivier Gillet</text>
-<text x="149.86" y="-40.64" size="2.54" layer="94">ol.gillet@gmail.com</text>
+<text x="149.86" y="-34.798" size="2.54" layer="94">Codex-Modulex</text>
+<text x="149.86" y="-39.37" size="2.54" layer="94">info@codex-modulex.com</text>
 <text x="205.74" y="-30.48" size="2.54" layer="94">Analog Section</text>
 <text x="-17.78" y="154.94" size="1.778" layer="97">0 .. 2.5V</text>
 <text x="-17.78" y="99.06" size="1.778" layer="97">0 .. 2.5V</text>
 <text x="114.3" y="152.4" size="1.778" layer="97">0 .. 2.5V</text>
 <text x="106.68" y="99.06" size="1.778" layer="97">0 .. 2.5V</text>
+<text x="149.86" y="-45.72" size="1.778" layer="94">Original design by:
+Olivier Gillet of Mutable Instruments</text>
 </plain>
 <instances>
 <instance part="GND13" gate="1" x="-91.44" y="139.7" smashed="yes">
@@ -16528,9 +16532,11 @@ by exp-lbrs.ulp</description>
 <text x="116.84" y="53.34" size="1.778" layer="97">3.5mA</text>
 <text x="81.28" y="53.34" size="1.778" layer="97">200µA</text>
 <text x="142.24" y="-55.88" size="2.54" layer="94">cc-by-sa</text>
-<text x="142.24" y="-60.96" size="2.54" layer="94">Olivier Gillet</text>
-<text x="142.24" y="-66.04" size="2.54" layer="94">ol.gillet@gmail.com</text>
+<text x="142.24" y="-59.944" size="2.54" layer="94">Codex-Modulex</text>
+<text x="142.24" y="-64.516" size="2.54" layer="94">info@codex-modulex.com</text>
 <text x="198.12" y="-55.88" size="2.54" layer="94">Analog Section</text>
+<text x="142.24" y="-71.12" size="1.778" layer="94">Original design by:
+Olivier Gillet of Mutable Instruments</text>
 </plain>
 <instances>
 <instance part="C25" gate="G$1" x="27.94" y="142.24" smashed="yes">
@@ -16856,6 +16862,10 @@ by exp-lbrs.ulp</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
